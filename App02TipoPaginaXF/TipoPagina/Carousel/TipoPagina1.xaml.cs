@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace App02TipoPaginaXF.TipoPagina.Carousel
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class TipoPagina1 : ContentView
+    public partial class TipoPagina1 : ContentPage
     {
         public TipoPagina1()
         {
@@ -18,4 +18,3 @@ namespace App02TipoPaginaXF.TipoPagina.Carousel
         }
     }
 }
- 

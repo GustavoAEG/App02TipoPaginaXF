@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace App02TipoPaginaXF.TipoPagina
+namespace App02TipoPaginaXF.TipoPagina.Carousel
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class TipoPagina3 : ContentView
+    public partial class IntroducaoApp : CarouselPage
     {
-        public TipoPagina3()
+        public IntroducaoApp()
         {
             InitializeComponent();
         }

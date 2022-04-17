@@ -1,18 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App02TipoPaginaXF.TipoPagina.Carousel.TipoPagina1">
+             x:Class="App02TipoPaginaXF.TipoPagina.Carousel.TipoPagina1"
+    BackgroundImageSource="a2.png">
 
+    <ContentPage.Content>
 
-   
+        <StackLayout Padding="250,310,4,10" BackgroundColor="Transparent">
+            <Image Source="swipeLeft.gif" IsAnimationPlaying="True" BackgroundColor="Transparent"/>
 
-        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="DarkBlue">
-            <Image Source="spotify.png"></Image>
-
+            <Label Text="Deslize para a esquerda... " FontSize="Title" FontAttributes="bold" VerticalOptions="End"></Label>
         </StackLayout>
-
-
-
-
-
-</ContentView>
+    </ContentPage.Content>
+</ContentPage>

@@ -10,11 +10,18 @@ using Xamarin.Forms.Xaml;
 namespace App02TipoPaginaXF.TipoPagina.Carousel
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class TipoPagina2 : ContentPage
+    public partial class TipoPagina3 : ContentPage
     {
-        public TipoPagina2()
+        public TipoPagina3()
         {
             InitializeComponent();
+
+        }
+        private void Ir_Pagina1(object sender, EventArgs args)
+        {
+
+            App.Current.MainPage = new Navigation.Pagina1();
+
         }
     }
 }

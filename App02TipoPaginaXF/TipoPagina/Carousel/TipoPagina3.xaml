@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App02TipoPaginaXF.TipoPagina.Carousel.TipoPagina3">
+    
+
+        <StackLayout>
+        <ImageButton Source="next.png" Clicked="Ir_Pagina1" BackgroundColor="Transparent"></ImageButton>
+            
+        </StackLayout>
+</ContentPage>
