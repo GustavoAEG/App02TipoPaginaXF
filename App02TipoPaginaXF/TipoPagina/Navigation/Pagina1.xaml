@@ -1,12 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App02TipoPaginaXF.TipoPagina.Navigation.Pagina1">
+             x:Class="App02TipoPaginaXF.TipoPagina.Navigation.Pagina1"
+             BackgroundColor="black"
+             Title="RockBar" IconImageSource="guitar_simbol.png"
+           
+             >
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Pesquisa" IconImageSource="lupa.png" ></ToolbarItem>
+        <ToolbarItem Text="Detalhes" IconImageSource="heart_notify.png"></ToolbarItem>
+        <ToolbarItem Text="Messenger" IconImageSource="messenger_icone.png"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Ir para pagnina 2" Clicked="Ir_Pagina2"></Button>
+            <Button Text="Ir para Modal" Clicked="Ir_Modal"></Button>
+            <Button Text="Chamar Master" Clicked="Chamar_Master"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

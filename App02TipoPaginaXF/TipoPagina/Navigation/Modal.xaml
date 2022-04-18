@@ -3,10 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App02TipoPaginaXF.TipoPagina.Navigation.Modal">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="LightSkyBlue">
+        <StackLayout HeightRequest="50" BackgroundColor="LightBlue">
+                <Button Text="X" Clicked="FecharModal"></Button>
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

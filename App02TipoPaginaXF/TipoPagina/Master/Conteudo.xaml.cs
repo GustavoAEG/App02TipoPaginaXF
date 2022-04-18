@@ -7,18 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace App02TipoPaginaXF.TipoPagina.Navigation
+namespace App02TipoPaginaXF.TipoPagina.Master
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Modal : ContentPage
+    public partial class Conteudo : ContentPage
     {
-        public Modal()
+        public Conteudo()
         {
             InitializeComponent();
-        }
-        private void FecharModal(object sender, EventArgs args)
-        {
-            Navigation.PopModalAsync();
         }
     }
 }

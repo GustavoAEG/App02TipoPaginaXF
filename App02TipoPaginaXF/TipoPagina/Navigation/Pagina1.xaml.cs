@@ -15,6 +15,23 @@ namespace App02TipoPaginaXF.TipoPagina.Navigation
         public Pagina1()
         {
             InitializeComponent();
+
+            BackgroundColor = Color.Black;
+        }
+        private void Ir_Pagina2(object sender, EventArgs args)
+        {
+            Navigation.PushAsync(new Pagina2());
+
+        }
+        private void Ir_Modal(object sender, EventArgs args)
+        {
+            Navigation.PushAsync(new Modal());
+        }
+        private void Chamar_Master(object sender, EventArgs args)
+        {
+
+            App.Current.MainPage = new Master.Master();
+
         }
     }
 }
