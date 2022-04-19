@@ -17,6 +17,7 @@ namespace App02TipoPaginaXF.TipoPagina.Tabbed
             InitializeComponent();
 
             Children.Add(new NavigationPage(new TipoPagina.Navigation.Pagina1()) { Title="Item 3"});   
+
         }
     }
 }

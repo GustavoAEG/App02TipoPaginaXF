@@ -2,13 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App02TipoPaginaXF.TipoPagina.Navigation.Pagina1"
+             Title="RockBar"
              BackgroundColor="black"
-             Title="RockBar" IconImageSource="guitar_simbol.png"
-           
              >
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Pesquisa" IconImageSource="lupa.png" ></ToolbarItem>
+        <ToolbarItem Text="Pesquisa" IconImageSource="lupa.png"></ToolbarItem>
         <ToolbarItem Text="Detalhes" IconImageSource="heart_notify.png"></ToolbarItem>
         <ToolbarItem Text="Messenger" IconImageSource="messenger_icone.png"></ToolbarItem>
     </ContentPage.ToolbarItems>

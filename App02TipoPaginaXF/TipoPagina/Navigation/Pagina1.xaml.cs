@@ -16,7 +16,7 @@ namespace App02TipoPaginaXF.TipoPagina.Navigation
         {
             InitializeComponent();
 
-            BackgroundColor = Color.Black;
+          
         }
         private void Ir_Pagina2(object sender, EventArgs args)
         {
